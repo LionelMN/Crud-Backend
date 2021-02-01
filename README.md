@@ -5,8 +5,8 @@ Simple MEAN crud backend
 Can run with `nodemon`
 
 ## Verbose
-getAll
-getOne
-createOne
-removeOne
-patchOne
+`getAll`
+`getOne`
+`createOne`
+`removeOne`
+`patchOne`

@@ -4,7 +4,7 @@ const { getAll, getOne, createOne, removeOne, putOne } = require('./items.contro
 router.get('/', getAll);
 router.get('/:name', getOne);
 router.post('/', createOne);
-router.delete('/:name', removeOne);
-router.put('/:name', putOne);
+router.delete('/:id', removeOne);
+router.put('/:id', putOne);
 
 module.exports = router;

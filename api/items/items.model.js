@@ -4,7 +4,7 @@ const itemSchema = mongoose.Schema({
 
     img : {
         type: String,
-        required : true
+        default: 'default.png'
     },
 
     name : {
@@ -14,13 +14,23 @@ const itemSchema = mongoose.Schema({
 
     last : {
         type: Number,
-        required : true
+        default : 1
     },
 
     total : {
         type: Number,
-        required : true
+        default : 1
+    },
+
+    genres : {
+        type: Array,
+    },
+
+    sinopsis : {
+        type: String,
     }
+
+
 
 });
 
